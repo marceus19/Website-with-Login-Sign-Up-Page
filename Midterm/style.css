@@ -1,0 +1,99 @@
+body {
+    background-image: url("images/bg1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .container {
+    width: 433.39px;
+    height: 607px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: auto;
+  }
+
+  .form-container {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .form-container .logo {
+    margin-bottom: 20px;
+  }
+
+  .form-container form {
+    margin-top: 20px;
+    color: darkgray;
+  }
+
+  .form-control {
+    border-radius: 0;
+    border-color: #ccc;
+  }
+
+  .btn-primary {
+    background-color: #a70101;
+    border-color: #a70101;
+  }
+
+  .btn-primary:hover {
+    background-color: #a70101;
+    border-color: #a70101;
+  }
+
+  .btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem #a70101(0, 123, 255, 0.5);
+  }
+
+  .forgot-password {
+    color: #a70101;
+    font-size: 0.9em;
+    text-decoration: none;
+  }
+
+  .forgot-password:hover {
+    color: #a70101;
+    text-decoration: underline;
+  }
+
+  .create-account {
+    margin-top: 10px;
+  }
+
+  .create-account a {
+    color: #a70101;
+    text-decoration: none;
+  }
+
+  .create-account a:hover {
+    color: #a70101;
+    text-decoration: underline;
+  }
+
+  .social-buttons {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .social-buttons a {
+    display: block;
+    width: 100%;
+  }
+
+  .password-reset {
+    margin-top: 20px;
+  }
+
+  .divider {
+    width: 313.39px;
+    height: 20.8px;
+    background-color: #ccc;
+    margin-top: 20px;
+  }
